@@ -14,6 +14,5 @@ REGISTRATION_TOKEN="$(curl -X POST -fsSL \
   --unattended \
   --disableupdate \
   --ephemeral \
-  --replace
 
 ./run.sh
