@@ -13,6 +13,4 @@ REGISTRATION_TOKEN="$(curl -X POST -fsSL \
   --token $REGISTRATION_TOKEN \
   --unattended \
   --disableupdate \
-  --ephemeral
-
-./run.sh
+  --ephemeral && ./run.sh
